@@ -15,15 +15,11 @@ This is a temporary fork of: https://github.com/abo-abo/lispy
 
 I will maintain Lispy here until [abo-abo](https://github.com/abo-abo/) returns. Feel free to open up issues and submit pull requests. I have already ported over and merged some open PRs on the original Lispy repo.
 
-Use as follows:
+Presuming [Elpaca](https://github.com/progfolio/elpaca), use as follows:
 
 ```lisp
 (use-package lispy
-  :straight (lispy
-         :type git
-         :host github
-         :repo "enzuru/lispy")
-  :ensure t
+  :ensure (:host github :repo "enzuru/lispy")
   :hook ((emacs-lisp-mode . lispy-mode)
          (ielm-mode . lispy-mode)
          (lisp-mode . lispy-mode)
@@ -102,7 +98,7 @@ The killer-feature are the short bindings:
 Most of more than 100 interactive commands that `lispy` provides are
 bound to <kbd>a</kbd>-<kbd>z</kbd> and <kbd>A</kbd>-<kbd>Z</kbd> in
 `lispy-mode`.  You can see the full command reference with many
-examples [here](http://abo-abo.github.io/lispy/).
+examples [here](http://enzuru.github.io/lispy/reference.html).
 
 The price for these short bindings is that they are only active when:
 
@@ -214,7 +210,7 @@ situation.
     - <kbd>F</kbd> jumps to symbol, <kbd>D</kbd> jumps back
     - <kbd>C-1</kbd> shows documentation in an overlay
     - <kbd>C-2</kbd> shows arguments in an overlay
-    - [<kbd>Z</kbd>](http://abo-abo.github.io/lispy/#lispy-edebug-stop) breaks
+    - [<kbd>Z</kbd>](http://enzuru.github.io/lispy/reference.html#lispy-edebug-stop) breaks
       out of `edebug`, while storing current function's arguments
 
 Some pictures [here](#ide-like-features).
@@ -237,7 +233,7 @@ Some pictures [here](#ide-like-features).
     - `edebug` (<kbd>xe</kbd>)
 
 ## Function reference
-Most functions are cataloged and described at http://abo-abo.github.io/lispy/.
+Most functions are cataloged and described at http://enzuru.github.io/lispy/reference.html.
 
 # Getting Started
 ## Installation instructions
@@ -387,14 +383,14 @@ this:
 ## List commands overview
 ### Inserting pairs
 
-Here's a list of commands for inserting [pairs](http://abo-abo.github.io/lispy/#lispy-pair):
+Here's a list of commands for inserting [pairs](http://enzuru.github.io/lispy/reference.html#lispy-pair):
 
 key               | command
 ------------------|-------------------------------------------------------------------
-  <kbd>(</kbd>    | [`lispy-parens`](http://abo-abo.github.io/lispy/#lispy-parens)
-  <kbd>{</kbd>    | [`lispy-braces`](http://abo-abo.github.io/lispy/#lispy-braces)
-  <kbd>}</kbd>    | [`lispy-brackets`](http://abo-abo.github.io/lispy/#lispy-brackets)
-  <kbd>"</kbd>    | [`lispy-quotes`](http://abo-abo.github.io/lispy/#lispy-quotes)
+  <kbd>(</kbd>    | [`lispy-parens`](http://enzuru.github.io/lispy/reference.html#lispy-parens)
+  <kbd>{</kbd>    | [`lispy-braces`](http://enzuru.github.io/lispy/reference.html#lispy-braces)
+  <kbd>}</kbd>    | [`lispy-brackets`](http://enzuru.github.io/lispy/reference.html#lispy-brackets)
+  <kbd>"</kbd>    | [`lispy-quotes`](http://enzuru.github.io/lispy/reference.html#lispy-quotes)
 
 ### Reversible commands
 
