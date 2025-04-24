@@ -65,8 +65,8 @@ Presuming [Elpaca](https://github.com/progfolio/elpaca), use as follows:
     - [Commands that operate on region](#commands-that-operate-on-region)
 - [IDE-like features](#ide-like-features)
 - [Demos](#demos)
-    - [[Demo 1: Practice generating code](http://abo-abo.github.io/lispy/demo-1)](#demo-1-practice-generating-codehttpabo-abogithubiolispydemo-1)
-    - [[Demo 2: The substitution model for procedure application](http://abo-abo.github.io/lispy/demo-2)](#demo-2-the-substitution-model-for-procedure-applicationhttpabo-abogithubiolispydemo-2)
+    - [[Demo 1: Practice generating code](http://enzuru.github.io/lispy/demo-1.html)](#demo-1-practice-generating-codehttpabo-abogithubiolispydemo-1)
+    - [[Demo 2: The substitution model for procedure application](http://enzuru.github.io/lispy/demo-2.html)](#demo-2-the-substitution-model-for-procedure-applicationhttpabo-abogithubiolispydemo-2)
     - [[Demo 3: Down the rabbit hole](http://abo-abo.github.io/lispy/demo-3)](#demo-3-down-the-rabbit-holehttpabo-abogithubiolispydemo-3)
     - [[Demo 4: Project Euler p100 and Clojure](http://abo-abo.github.io/lispy/demo-4)](#demo-4-project-euler-p100-and-clojurehttpabo-abogithubiolispydemo-4)
     - [[Demo 5: ->>ification](http://abo-abo.github.io/lispy/demo-5)](#demo-5--ificationhttpabo-abogithubiolispydemo-5)
@@ -593,8 +593,8 @@ their output will be updated after the eval.
 
 # Demos
 
-## [Demo 1: Practice generating code](http://abo-abo.github.io/lispy/demo-1)
-## [Demo 2: The substitution model for procedure application](http://abo-abo.github.io/lispy/demo-2)
+## [Demo 1: Practice generating code](http://enzuru.github.io/lispy/demo-1.html)
+## [Demo 2: The substitution model for procedure application](http://enzuru.github.io/lispy/demo-2.html)
 ## [Demo 3: Down the rabbit hole](http://abo-abo.github.io/lispy/demo-3)
 ## [Demo 4: Project Euler p100 and Clojure](http://abo-abo.github.io/lispy/demo-4)
 ## [Demo 5: ->>ification](http://abo-abo.github.io/lispy/demo-5)
