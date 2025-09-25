@@ -6639,7 +6639,9 @@ Otherwise return cons of current string, symbol or list bounds."
              (org-back-to-heading t)
              (point))
            (progn
-             (org-end-of-subtree t t)
+             (outline-mark-subtree)
+             (exchange-point-and-mark)
+             (deactivate-mark)
              (when (and (org-at-heading-p)
                         (not (eobp)))
                (backward-char 1))
